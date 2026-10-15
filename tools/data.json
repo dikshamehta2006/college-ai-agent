@@ -1,0 +1,31 @@
+{
+    "timetable_data": {
+        "Monday": [
+            {"time": "09:00 AM - 10:00 AM", "subject": "CS101 (Data Structures)", "room": "Lab 3"},
+            {"time": "11:00 AM - 12:00 PM", "subject": "MA102 (Discrete Mathematics)", "room": "Room 402"}
+        ],
+        "Tuesday": [
+            {"time": "10:00 AM - 11:00 AM", "subject": "PH103 (Engineering Physics)", "room": "Auditorium B"},
+            {"time": "01:00 PM - 02:30 PM", "subject": "CS104 (Object-Oriented Programming)", "room": "Lab 1"}
+        ],
+        "Wednesday": [
+            {"time": "09:00 AM - 10:00 AM", "subject": "CS101 (Data Structures)", "room": "Lab 3"},
+            {"time": "11:00 AM - 12:00 PM", "subject": "EE105 (Basic Electrical Engineering)", "room": "Room 204"}
+        ],
+        "Thursday": [
+            {"time": "10:00 AM - 11:00 AM", "subject": "PH103 (Engineering Physics)", "room": "Auditorium B"},
+            {"time": "02:00 PM - 03:30 PM", "subject": "MA102 (Discrete Mathematics)", "room": "Room 402"}
+        ],
+        "Friday": [
+            {"time": "09:00 AM - 11:00 AM", "subject": "CS104 (Object-Oriented Programming)", "room": "Lab 1"},
+            {"time": "01:00 PM - 02:00 PM", "subject": "EE105 (Basic Electrical Engineering)", "room": "Room 204"}
+        ]
+    },
+    "attendance_stats": {
+        "CS101": {"subject_name": "Data Structures", "attended": 28, "total": 30},
+        "MA102": {"subject_name": "Discrete Mathematics", "attended": 18, "total": 25},
+        "PH103": {"subject_name": "Engineering Physics", "attended": 14, "total": 20},
+        "CS104": {"subject_name": "Object-Oriented Programming", "attended": 22, "total": 24},
+        "EE105": {"subject_name": "Basic Electrical Engineering", "attended": 11, "total": 18}
+    }
+}
